@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A3DEB1402627C3D60001D3E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEB13F2627C3D60001D3E2 /* AppDelegate.swift */; };
-		A3DEB1422627C3D60001D3E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEB1412627C3D60001D3E2 /* SceneDelegate.swift */; };
-		A3DEB1442627C3D60001D3E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEB1432627C3D60001D3E2 /* ViewController.swift */; };
-		A3DEB1472627C3D60001D3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DEB1452627C3D60001D3E2 /* Main.storyboard */; };
 		A3DEB1492627C3D60001D3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DEB1482627C3D60001D3E2 /* Assets.xcassets */; };
 		A3DEB14C2627C3D60001D3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DEB14A2627C3D60001D3E2 /* LaunchScreen.storyboard */; };
 		A3DEB1572627C3D70001D3E2 /* GBShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEB1562627C3D70001D3E2 /* GBShopTests.swift */; };
 		A3DEB1622627C3D70001D3E2 /* GBShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEB1612627C3D70001D3E2 /* GBShopUITests.swift */; };
+		A3DEB1732627C4A30001D3E2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A3DEB1722627C4A30001D3E2 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +35,6 @@
 /* Begin PBXFileReference section */
 		A3DEB13C2627C3D60001D3E2 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DEB13F2627C3D60001D3E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3DEB1412627C3D60001D3E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3DEB1432627C3D60001D3E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A3DEB1462627C3D60001D3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3DEB1482627C3D60001D3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3DEB14B2627C3D60001D3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3DEB14D2627C3D60001D3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +44,7 @@
 		A3DEB15D2627C3D70001D3E2 /* GBShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DEB1612627C3D70001D3E2 /* GBShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITests.swift; sourceTree = "<group>"; };
 		A3DEB1632627C3D70001D3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DEB1722627C4A30001D3E2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +75,16 @@
 		A3DEB1332627C3D60001D3E2 = {
 			isa = PBXGroup;
 			children = (
+				A3DEB1722627C4A30001D3E2 /* .gitignore */,
+				A3DEB1792627C50D0001D3E2 /* Entity */,
+				A3DEB17E2627C5550001D3E2 /* Environments */,
+				A3DEB17D2627C5470001D3E2 /* Resources */,
+				A3DEB17C2627C53F0001D3E2 /* Core */,
+				A3DEB17B2627C5360001D3E2 /* Flows */,
+				A3DEB17A2627C5250001D3E2 /* Assembly */,
 				A3DEB13E2627C3D60001D3E2 /* GBShop */,
+				A3DEB1782627C5040001D3E2 /* BusinessLogic */,
+				A3DEB1772627C4F90001D3E2 /* App */,
 				A3DEB1552627C3D70001D3E2 /* GBShopTests */,
 				A3DEB1602627C3D70001D3E2 /* GBShopUITests */,
 				A3DEB13D2627C3D60001D3E2 /* Products */,
@@ -99,13 +104,6 @@
 		A3DEB13E2627C3D60001D3E2 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
-				A3DEB13F2627C3D60001D3E2 /* AppDelegate.swift */,
-				A3DEB1412627C3D60001D3E2 /* SceneDelegate.swift */,
-				A3DEB1432627C3D60001D3E2 /* ViewController.swift */,
-				A3DEB1452627C3D60001D3E2 /* Main.storyboard */,
-				A3DEB1482627C3D60001D3E2 /* Assets.xcassets */,
-				A3DEB14A2627C3D60001D3E2 /* LaunchScreen.storyboard */,
-				A3DEB14D2627C3D60001D3E2 /* Info.plist */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -126,6 +124,66 @@
 				A3DEB1632627C3D70001D3E2 /* Info.plist */,
 			);
 			path = GBShopUITests;
+			sourceTree = "<group>";
+		};
+		A3DEB1772627C4F90001D3E2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A3DEB13F2627C3D60001D3E2 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A3DEB1782627C5040001D3E2 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		A3DEB1792627C50D0001D3E2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A3DEB17A2627C5250001D3E2 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A3DEB17B2627C5360001D3E2 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		A3DEB17C2627C53F0001D3E2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A3DEB17D2627C5470001D3E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3DEB14A2627C3D60001D3E2 /* LaunchScreen.storyboard */,
+				A3DEB1482627C3D60001D3E2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A3DEB17E2627C5550001D3E2 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				A3DEB14D2627C3D60001D3E2 /* Info.plist */,
+			);
+			path = Environments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DEB1732627C4A30001D3E2 /* .gitignore in Resources */,
 				A3DEB14C2627C3D60001D3E2 /* LaunchScreen.storyboard in Resources */,
 				A3DEB1492627C3D60001D3E2 /* Assets.xcassets in Resources */,
-				A3DEB1472627C3D60001D3E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DEB1442627C3D60001D3E2 /* ViewController.swift in Sources */,
 				A3DEB1402627C3D60001D3E2 /* AppDelegate.swift in Sources */,
-				A3DEB1422627C3D60001D3E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +352,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A3DEB1452627C3D60001D3E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3DEB1462627C3D60001D3E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A3DEB14A2627C3D60001D3E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
